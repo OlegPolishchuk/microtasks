@@ -3,6 +3,8 @@ import './App.css';
 import MapTask from "./MapTask";
 import Button from "./components/Button";
 import FilterTask from "./components/FilterTaskt";
+import InputTask from "./components/InputTask";
+import InputTask2 from "./components/InputTask2";
 
 
 const topCars = [
@@ -28,11 +30,14 @@ function App() {
     // <div className="App">
     //   <MapTask topCars={topCars}/>
     //
-    //   <Button name={'MyYouTubeChanel-1'} callBack={()=>button1Foo('Im Vasya', 21)}/>
-    //   <Button name={'MyYouTubeChanel-2'} callBack={()=>button2Foo('Im Ivan')}/>
-    //   <Button name={'Stupid Button'} callBack={button3Foo}/>
+    //   <Button className={'button'} name={'MyYouTubeChanel-1'} callBack={()=>button1Foo('Im Vasya', 21)}/>
+    //   <Button className={'button'} name={'MyYouTubeChanel-2'} callBack={()=>button2Foo('Im Ivan')}/>
+    //   <Button className={'button'} name={'Stupid Button'} callBack={button3Foo}/>
     // </div>
-      <FilterTask/>
+    //   <FilterTask/>
+
+      // <InputTask/>
+      <InputTask2/>
   );
 
 }

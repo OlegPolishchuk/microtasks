@@ -111,7 +111,7 @@
   font-size: 20px;
 }
 
-button {
+.button {
   padding: 15px 20px;
   border-radius: 4px;
   background: #06a73b;
@@ -120,7 +120,7 @@ button {
   color: #fff;
 }
 
-button:hover {
+.button:hover {
   background: #0DBE26;
 }
 
